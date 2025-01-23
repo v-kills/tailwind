@@ -1,5 +1,12 @@
 export default function Body(){
 
-    return <p> Under Construction </p>
+    return (
+        <>
+        
+    <p> Under Construction </p>
+    </>
+);
+
+
     
 }
