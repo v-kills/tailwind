@@ -1,17 +1,19 @@
-
 import './App.css'
+import Header from './components/header';
+import Body from './components/Body';
 
 function App() {
-  const title = "Killingsworth Ceramics";
  
   return (
-    <div className='app'>
-    <header>
-      <h1> {title} </h1>
-      <p> Site Under Construction</p>
-    </header>
+    <div className='App'>
+      <div className='header'>
+      <Header/>
+      </div>
+      <div>
+        <Body />
+      </div>
+
     </div>
-   
   )
 }
 
